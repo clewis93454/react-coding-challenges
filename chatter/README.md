@@ -4,8 +4,8 @@
 Most of the work needs to be done in the `Messages` components.
 `chatter/src/components/Messages/components/Messages.js`
 
+- Implement hooks to handle events (sending/receiving messages)
 - Display messages (both sent and received)
-- Implement hooks such as `useEffect` and `useCallback` to handle events (sending/receiving messages)
 - Use **sockets** to:
   - Send the user's message to Botty
   - Show a typing message when Botty is typing
