@@ -1,14 +1,4 @@
 # Chatter Coding Challenge 🤖 &nbsp; ![hard](https://img.shields.io/badge/-Hard-red) ![time](https://img.shields.io/badge/%E2%8F%B0-60m-blue)
-
-&nbsp;
-# Goals / Outcomes ✨
-- To test knowledge of using sockets (socket.io) and events
-- Understanding of callbacks, hooks and function references
-
-&nbsp;
-# Pre-requisites ✅
-None
-
 &nbsp;
 # Requirements 📖
 Most of the work needs to be done in the `Messages` components.
@@ -21,6 +11,14 @@ Most of the work needs to be done in the `Messages` components.
   - Handle incoming Botty messages and display them
 - Implement audio cues for sending/receiving messages
 - Scroll to the bottom of the messages list when sending/receiving a message
+
+&nbsp;
+# What's Already Been Done 🏁
+- Socket setup/configuration with the [Botty server](https://github.com/alexgurr/botty) ([botty.alexgurr.com](https://botty.alexgurr.com))
+- All UX and UI, including for messages
+- All components, including a message and typing message component
+- A context for setting the latest message, which will change the preview in the left user list
+- Hooks for playing send/receive sounds
 
 &nbsp;
 # Botty Socket Events
@@ -41,14 +39,6 @@ We've provided `Message` components and classes. Here's some information about t
 - References to functions and current hook state
 - How to interact with socket.io, events and payloads
 - How React contexts work
-
-&nbsp;
-# What's Already Been Done 🏁
-- Socket setup/configuration with the [Botty server](https://github.com/alexgurr/botty) ([botty.alexgurr.com](https://botty.alexgurr.com))
-- All UX and UI, including for messages
-- All components, including a message and typing message component
-- A context for setting the latest message, which will change the preview in the left user list
-- Hooks for playing send/receive sounds
 
 &nbsp;
 # Screenshots 🌄
